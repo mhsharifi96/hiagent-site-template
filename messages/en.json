@@ -1,0 +1,234 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "CTA": {
+    "bookCall": "Book a Call",
+    "getQuote": "Get a Quote"
+  },
+  "Footer": {
+    "tagline": "AI automation partner for ambitious teams shipping reliable agentic systems.",
+    "links": "Explore",
+    "contact": "Connect",
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "copyright": "All rights reserved."
+  },
+  "Home": {
+    "hero": {
+      "badge": "AI Automation Agency",
+      "title": "Build your next growth engine with",
+      "highlight": "RAG, GraphRAG, and AI agents",
+      "description": "HiAgent designs and deploys conversion-focused AI workflows for businesses that need speed, reliability, and measurable ROI."
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "End-to-end AI automation delivery",
+      "description": "From knowledge systems to media generation, each service is built for real business outcomes.",
+      "learnMore": "Explore service"
+    },
+    "process": {
+      "eyebrow": "How It Works",
+      "title": "A delivery model optimized for fast validation",
+      "description": "We de-risk implementation in controlled stages."
+    },
+    "useCases": {
+      "eyebrow": "Use Cases",
+      "title": "Built for industries where speed and accuracy matter",
+      "description": "Reusable AI patterns customized per domain."
+    },
+    "caseStudies": {
+      "eyebrow": "Case Studies",
+      "title": "Recent project outcomes",
+      "description": "Sample delivery stories across support, sales, and product intelligence.",
+      "viewCase": "View case study"
+    },
+    "architecture": {
+      "eyebrow": "Architecture",
+      "title": "How RAG + GraphRAG power agentic apps",
+      "description": "A simple reference architecture for enterprise-ready AI automation."
+    },
+    "stack": {
+      "eyebrow": "Tech Stack",
+      "title": "Modern, reliable, and production-focused",
+      "description": "We use proven tools and choose stacks based on your constraints."
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What teams say"
+    },
+    "blog": {
+      "eyebrow": "Insights",
+      "title": "Latest from HiAgent blog",
+      "description": "Actionable guides on RAG, GraphRAG, agents, and AI product delivery.",
+      "readArticle": "Read article"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Common questions before kickoff",
+      "description": "Fast answers for decision makers and technical leads."
+    },
+    "finalCta": {
+      "title": "Ready to turn AI ideas into operational results?",
+      "description": "Book a discovery call and get a practical roadmap for your first high-impact automation release.",
+      "bulletOne": "Response within one business day",
+      "bulletTwo": "Clear scope, milestones, and delivery model"
+    }
+  },
+  "ServicesPage": {
+    "eyebrow": "Services",
+    "title": "Detailed AI automation services",
+    "description": "Each engagement includes business context, architecture, delivery milestones, and post-launch support.",
+    "problem": "Problem",
+    "solution": "Solution",
+    "deliverables": "Deliverables",
+    "timeline": "Timeline",
+    "relatedArticles": "Related blog articles",
+    "comingSoon": "Articles coming soon",
+    "bookCall": "Book a Call",
+    "viewCaseStudies": "View Case Studies"
+  },
+  "CaseStudiesPage": {
+    "eyebrow": "Case Studies",
+    "title": "Proven outcomes across industries",
+    "description": "Challenge, architecture approach, and measurable business impact.",
+    "viewCase": "Open case"
+  },
+  "CaseStudyDetail": {
+    "challenge": "Challenge",
+    "approach": "Approach",
+    "results": "Results",
+    "architectureDiagram": "Architecture diagram",
+    "architecturePlaceholder": "Diagram placeholder: connect data ingestion, retrieval layer, orchestration, and interface components.",
+    "stack": "Stack",
+    "screenshots": "Screenshots",
+    "screenshotsPlaceholder": "Screenshots placeholder for dashboard, chat UI, and analytics outcomes."
+  },
+  "BlogPage": {
+    "eyebrow": "Blog",
+    "title": "SEO-focused AI implementation insights",
+    "description": "Guides for teams shipping RAG products, GraphRAG systems, and agentic automation at scale."
+  },
+  "BlogPost": {
+    "toc": "Table of Contents",
+    "share": "Share",
+    "tags": "Tags"
+  },
+  "AboutPage": {
+    "eyebrow": "About HiAgent",
+    "title": "A practical AI automation partner",
+    "description": "We help teams move from experimentation to dependable AI operations.",
+    "mission": {
+      "title": "Mission",
+      "text": "Deliver AI systems that create measurable impact, not demos that fail in production."
+    },
+    "values": {
+      "title": "Values",
+      "text": "Clarity, accountability, and technical rigor in every delivery phase."
+    },
+    "workflow": {
+      "title": "Workflow",
+      "text": "Lean discovery, architecture-first implementation, and iterative quality improvements."
+    },
+    "why": {
+      "title": "Why HiAgent",
+      "text": "You get senior-level execution, transparent communication, and a roadmap that aligns technical decisions with business KPIs."
+    }
+  },
+  "ContactPage": {
+    "eyebrow": "Contact",
+    "title": "Tell us about your project",
+    "description": "Share your goals and constraints. We will reply with a clear next-step plan.",
+    "form": {
+      "name": "Full name",
+      "email": "Work email",
+      "company": "Company",
+      "projectType": "Project type",
+      "budget": "Budget range",
+      "message": "Project brief",
+      "submit": "Send inquiry",
+      "success": "Your request was sent successfully.",
+      "error": "Please complete required fields and try again."
+    },
+    "quickContact": "Quick contact",
+    "quickContactDescription": "Reach us directly through your preferred channel.",
+    "calendlyTitle": "Calendly integration",
+    "calendlyDescription": "Book a discovery session instantly using our scheduling link.",
+    "calendlyLink": "Open Calendly"
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "intro": "We process your contact data only for responding to inquiries, project evaluation, and service communication.",
+    "data": {
+      "title": "Data we collect",
+      "text": "Name, work email, company details, and project information submitted through the contact form."
+    },
+    "usage": {
+      "title": "How data is used",
+      "text": "To evaluate project fit, provide quotations, and communicate delivery updates."
+    },
+    "rights": {
+      "title": "Your rights",
+      "text": "You can request correction or deletion of your information by emailing us."
+    }
+  },
+  "TermsPage": {
+    "title": "Terms and Conditions",
+    "intro": "These terms govern all projects, proposals, and service engagements with HiAgent.",
+    "services": {
+      "title": "Service scope",
+      "text": "Scope, timeline, and deliverables are defined in each signed proposal."
+    },
+    "payment": {
+      "title": "Payments",
+      "text": "Payment schedules are milestone-based unless a retainer agreement is active."
+    },
+    "liability": {
+      "title": "Liability",
+      "text": "HiAgent is not liable for third-party platform outages or client-side misuse of deployed systems."
+    }
+  },
+  "SEO": {
+    "Global": {
+      "title": "HiAgent | AI Automation Agency",
+      "description": "Multilingual AI automation agency for RAG, GraphRAG, custom agents, and workflow intelligence."
+    },
+    "Home": {
+      "title": "AI Automation Agency for RAG, GraphRAG, and Agentic Workflows",
+      "description": "HiAgent builds multilingual, conversion-focused AI systems for business growth: RAG, GraphRAG, custom agents, and automation pipelines."
+    },
+    "Services": {
+      "title": "AI Automation Services | RAG, GraphRAG, Agents, Integrations",
+      "description": "Explore HiAgent services with clear problem-solution framing, deliverables, timelines, and pricing approach."
+    },
+    "CaseStudies": {
+      "title": "AI Case Studies | Measurable Results Across Industries",
+      "description": "See how HiAgent delivers business outcomes with production-ready AI architecture and automation."
+    },
+    "Blog": {
+      "title": "AI Automation Blog | RAG, GraphRAG, Agentic Systems",
+      "description": "Technical and strategic content for teams building scalable AI products and automation operations."
+    },
+    "About": {
+      "title": "About HiAgent | Practical AI Delivery Team",
+      "description": "Learn how HiAgent combines product thinking and engineering rigor to ship reliable AI systems."
+    },
+    "Contact": {
+      "title": "Contact HiAgent | Book a Discovery Call",
+      "description": "Share your project scope and get a fast response with a practical AI implementation plan."
+    },
+    "Privacy": {
+      "title": "Privacy Policy | HiAgent",
+      "description": "How HiAgent collects and uses inquiry data."
+    },
+    "Terms": {
+      "title": "Terms and Conditions | HiAgent",
+      "description": "Service terms for HiAgent project engagements."
+    }
+  }
+}
