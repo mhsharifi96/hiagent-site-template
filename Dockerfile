@@ -1,28 +1,33 @@
-FROM node:20-alpine AS base
+FROM node:lts-alpine
+
 WORKDIR /app
-ENV NEXT_TELEMETRY_DISABLED=1
 
-FROM base AS deps
-COPY package.json package-lock.json ./
-RUN npm ci
+# تنظیم registry ایرانی برای npm
+# RUN npm config set registry https://mirror-npm.runflare.com && \
+#     npm config set strict-ssl false
 
-FROM base AS builder
-COPY --from=deps /app/node_modules ./node_modules
+# کپی package files
+COPY package.json package-lock.json* ./
+
+RUN npm install
+
 COPY . .
+
+# build app
 RUN npm run build
 
-FROM node:20-alpine AS runner
-WORKDIR /app
-ENV NODE_ENV=production
-ENV NEXT_TELEMETRY_DISABLED=1
-ENV PORT=3004
+# cleaning
+RUN npm prune --omit=dev && \
+    npm cache clean --force && \
+    rm -rf .npm /tmp/*
 
-RUN addgroup -S nextjs && adduser -S nextjs -G nextjs
+# env config
+ENV NODE_ENV=production \
+    PORT=3004
 
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next/standalone ./
-COPY --from=builder /app/.next/static ./.next/static
-
-USER nextjs
 EXPOSE 3004
-CMD ["node", "server.js"]
+
+
+
+CMD ["npm", "start"]
+
