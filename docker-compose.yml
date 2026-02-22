@@ -5,9 +5,9 @@ services:
       dockerfile: Dockerfile
     container_name: hiagent-web
     ports:
-      - "3000:3000"
+      - "3004:3004"
     environment:
       NODE_ENV: production
-      PORT: 3000
-      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+      PORT: 3004
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3004}
     restart: unless-stopped

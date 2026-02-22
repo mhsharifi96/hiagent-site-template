@@ -23,4 +23,4 @@ docker compose up -d
 echo "[3/3] Current status:"
 docker compose ps
 
-echo "Deployment complete. App should be available at http://localhost:3000"
+echo "Deployment complete. App should be available at http://localhost:3004"

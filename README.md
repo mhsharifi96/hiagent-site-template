@@ -112,7 +112,7 @@ Or use the deployment script:
 Open:
 
 ```txt
-http://localhost:3000
+http://localhost:3004
 ```
 
 Stop:
